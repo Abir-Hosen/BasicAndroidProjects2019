@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FF5722"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/ic_launcher_round"/>
+
+    <EditText
+        android:id="@+id/userNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="User Name"
+        android:drawableLeft="@drawable/ic_adb_black_24dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/userPassId"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/buttonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Login"
+        android:backgroundTint="#D64518"
+        android:textColor="#ffffff"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:text="Number of attempt remaining 3"
+        android:textAlignment="center"/>
+
+</LinearLayout>

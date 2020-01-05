@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B0E25">
+
+    <LinearLayout
+        android:id="@+id/smpLout1Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:weightSum="6">
+
+        <ImageView
+            android:id="@+id/smpImgId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bangladesh"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/smpLoutId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="5">
+
+            <TextView
+                android:id="@+id/smpTxtId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/smpTxt2Id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select here."
+                android:textColor="#ffffff"
+                android:textSize="10dp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

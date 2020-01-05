@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#D8A459"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/emailTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email."
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/feedTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Feedback."
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/msgTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Openion."
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="send feedback"
+        android:backgroundTint="#2D9C15"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/cBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="clear"
+        android:backgroundTint="#C45431"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MyExpendableListView</string>
+    <string-array name="country_names">
+        <item>United Kingdom</item>
+        <item>America</item>
+        <item>Mexico</item>
+        <item>Germany</item>
+        <item>Bangladesh</item>
+        <item>Brazil</item>
+        <item>Italy</item>
+        <item>Portugal</item>
+        <item>Australia</item>
+        <item>France</item>
+        <item>Pakistan</item>
+        <item>Spain</item>
+        <item>India</item>
+        <item>Africa</item>
+        <item>Tehran</item>
+        <item>Iraq</item>
+        <item>Bhutan</item>
+        <item>Nepal</item>
+        <item>Arab</item>
+        <item>Canada</item>
+        <item>Hungary</item>
+        <item>Vietnam</item>
+        <item>Sri Lanka</item>
+        <item>Afghanistan</item>
+        <item>Iran</item>
+    </string-array>
+
+    <string-array name="country_details">
+        <item>United Kingdom details.\nThis is details.\nView details. </item>
+        <item>America details.\nThis is details.\nView details.</item>
+        <item>Mexico details.\nThis is details.\nView details.</item>
+        <item>Germany details.\nThis is details.\nView details.</item>
+        <item>Bangladesh details.\nThis is details.\nView details.</item>
+        <item>Brazil details.\nThis is details.\nView details.</item>
+        <item>Italy details.\nThis is details.\nView details.</item>
+        <item>Portugaldetails.\nThis is details.\nView details.</item>
+        <item>Australia details.\nThis is details.\nView details.</item>
+        <item>France details.\nThis is details.\nView details.</item>
+        <item>Pakistan details.\nThis is details.\nView details.</item>
+        <item>Spain details.\nThis is details.\nView details.</item>
+        <item>India details.\nThis is details.\nView details.</item>
+        <item>Africa details.\nThis is details.\nView details.</item>
+        <item>Tehran details.\nThis is details.\nView details.</item>
+        <item>Iraq details.\nThis is details.\nView details.</item>
+        <item>Bhutan details.\nThis is details.\nView details.</item>
+        <item>Nepal details.\nThis is details.\nView details.</item>
+        <item>Arab details.\nThis is details.\nView details.</item>
+        <item>Canada details.\nThis is details.\nView details.</item>
+        <item>Hungary details.\nThis is details.\nView details.</item>
+        <item>Vietnam details.\nThis is details.\nView details.</item>
+        <item>Sri Lanka details.\nThis is details.\nView details.</item>
+        <item>Afghanistan details.\nThis is details.\nView details.</item>
+        <item>Iran details.\nThis is details.\nView details.</item>
+    </string-array>
+</resources>

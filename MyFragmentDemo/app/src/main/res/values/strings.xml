@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyFragmentDemo</string>
+    <string-array name="name_list">
+        <item>Name 1</item>
+        <item>Name 2</item>
+        <item>Name 3</item>
+        <item>Name 4</item>
+        <item>Name 5</item>
+        <item>Name 6</item>
+        <item>Name 7</item>
+        <item>Name 8</item>
+        <item>Name 9</item>
+        <item>Name 10</item>
+        <item>Name 11</item>
+        <item>Name 12</item>
+        <item>Name 13</item>
+        <item>Name 14</item>
+        <item>Name 15</item>
+        <item>Name 16</item>
+        <item>Name 17</item>
+        <item>Name 18</item>
+        <item>Name 19</item>
+        <item>Name 20</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

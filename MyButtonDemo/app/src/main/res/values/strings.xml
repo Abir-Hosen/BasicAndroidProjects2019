@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyButtonDemo</string>
+    <string name="name">Abir Hosen Ashik</string>
+    <string name="login">Login</string>
+    <string name="Logout">Logout</string>
+    <string name="clicknote">Click button!</string>
+</resources>

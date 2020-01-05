@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#8AD38A"
+    android:layout_height="match_parent"
+    android:weightSum="20"
+    tools:context=".CountryProfileActivity">
+
+    <ImageView
+        android:id="@+id/imgId"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/nameId"
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="italic|bold"
+        android:textColor="#1E7021"/>
+
+    <ScrollView
+        android:id="@+id/scrollId"
+        android:layout_weight="14"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:background="#418341">
+        <TextView
+            android:id="@+id/detailsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textStyle="italic|bold"
+            android:textColor="#ffffff"
+            android:textIsSelectable="true"
+            android:textSize="20dp"/>
+    </ScrollView>
+
+
+</LinearLayout>

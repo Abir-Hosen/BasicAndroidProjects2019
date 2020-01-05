@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#BEAC29"
+    android:padding="20dp"
+    android:gravity="center"
+    android:id="@+id/layoutId">
+
+    <TextView
+        android:id="@+id/scoreId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/incId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increase Score"
+        android:textColor="#4CAF50"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/decId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrease Score"
+        android:textColor="#4CAF50"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:background="#ffffff"
+        android:lines="10"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/saveId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4CAF50"/>
+
+        <Button
+            android:id="@+id/clearId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF5722"/>
+
+        <Button
+            android:id="@+id/loadId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Load"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"/>
+    </LinearLayout>
+
+</LinearLayout>
